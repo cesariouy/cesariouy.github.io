@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-container {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.name-part {
+  font-size: 23vh;
+  text-transform: capitalize;
+}
+
+#first-name {
+  writing-mode: vertical-lr;
+  flex-direction: row;
+  line-height: 0.77;
+}
+
+#links-last-name {
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+#links-last-name .row {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#links-last-name ul {
+  margin: auto;
+  list-style: none;
+  padding: 0;
+  font-size: 4vw;
+}
+
+#links-last-name a {
+  color: #1155cc
+}
+
+#last-name {
+  line-height: 1.2;
+  overflow: hidden;
+}
