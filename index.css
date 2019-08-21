@@ -48,6 +48,11 @@ body {
   color: #1155cc
 }
 
+#rocket-link {
+  font-size: 4vw;
+  text-decoration: none;
+}
+
 #last-name {
   line-height: 1.2;
   overflow: hidden;
